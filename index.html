@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="HYL株式会社決算公告専用ページ">
+    <meta name="keywords" content="HYL株式会社, 決算公告">
+    <meta name="author" content="Curtis Han">
+    <title>年度決算報告専用ページ - HYL株式会社</title>
+    <style>
+        body {
+            background-color: #f0f8ff;
+            font-family: 'Arial', 'Helvetica', sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #4682b4;
+            color: white;
+            padding: 10px 0;
+            text-align: center;
+            position: relative;
+        }
+
+        h5 {
+            margin: 0;
+            position: absolute;
+            left: 10px;
+            top: 10px;
+        }
+
+        h5 a {
+            background: linear-gradient(90deg, red, orange, yellow, green, blue, indigo, violet);
+            background-size: 400% 100%;
+            animation: rainbow 5s infinite;
+            -webkit-background-clip: text;
+            color: transparent;
+        }
+
+        @keyframes rainbow {
+            0% { background-position: 0% 50%; }
+            50% { background-position: 100% 50%; }
+            100% { background-position: 0% 50%; }
+        }
+
+        h5 a:hover {
+            text-decoration: underline;
+        }
+
+        h1 {
+            margin: 0;
+            font-size: 2em;
+            padding-top: 40px;
+        }
+
+        main {
+            padding: 20px;
+        }
+
+        section {
+            margin-bottom: 20px;
+        }
+
+        h2 {
+            color: #4682b4;
+            border-bottom: 2px solid #4682b4;
+            padding-bottom: 5px;
+        }
+
+        p, li {
+            margin: 10px 0;
+        }
+
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        ul li {
+            background-color: #e0ffff;
+            margin: 5px 0;
+            padding: 10px;
+            border-radius: 5px;
+        }
+
+        ul li a {
+            text-decoration: none;
+            color: #4682b4;
+        }
+
+        ul li a:hover {
+            text-decoration: underline;
+        }
+
+        footer {
+            background-color: #4682b4;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+
+        .homepage-button {
+            background-color: #4682b4;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            margin: 10px 2px;
+            cursor: pointer;
+            border-radius: 5px;
+            transition: background-color 0.3s ease;
+        }
+
+        .homepage-button:hover {
+            background-color: #5a9bd4;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h5><a href="https://hyljp.github.io/">HYL株式会社</a></h5>
+        <h1>年度決算公告</h1>
+    </header>
+
+    <main>
+        <section id="announcement">
+            <p>ここに掲載される貸借対照表およびその他の法律上定められた公告は、定款第5条の定めに基づき、ホームページ上に掲載することとしております。ただし、やむを得ない事由により長期間ホームページ上に掲載することができない場合は、官報に掲載いたします。</p>
+        </section>
+
+        <section id="reports">
+            <h2>年度決算報告書リンク</h2>
+            <p>以下の各年度の決算報告書をご覧いただけます：</p>
+            <ul>
+            <!-- ※※※更新する箇所※※
+                <li>
+                    <h3>第1期 2025年</h3>
+                    <a href="https://test">貸借対照表</a>
+                </li>
+            -->
+                <li>
+                    <h3>第1期 2025年</h3>
+                    <a href="doc/HYL_Co_Balance_Sheet_2025Test.pdf">貸借対照表</a>
+                </li>
+            </ul>
+        </section>
+
+        <section id="contact">
+            <h2>お問い合わせ</h2>
+            <p>ご質問やご不明点がございましたら、弊社のホームページにて詳細な連絡先情報をご確認ください。</p>
+            <p><button class="homepage-button" onclick="location.href='https://hyljp.github.io/'">会社のホームページへ</button></p>
+        </section>
+    </main>
+
+    <footer>
+        <p>© 2025 HYL株式会社. All rights reserved.</p>
+    </footer>
+</body>
+</html>
