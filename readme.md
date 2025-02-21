@@ -2,7 +2,7 @@
 
 複雑な構造ではなく、シングルページおよび単一htmlファイルでできたもの。
 
-URL: [年度決算報告専用ページ - HYL株式会社](https://hyljp.github.io/ir/)
+URL: https://hyljp.github.io/ir/
 
 
 
@@ -30,6 +30,7 @@ URL: [年度決算報告専用ページ - HYL株式会社](https://hyljp.github.
   
 
 タイトルとリンクの更新だけで終わる
+※　コミットからgithub pages更新する所要時間は**5**分が所要となる。
 
 
 
